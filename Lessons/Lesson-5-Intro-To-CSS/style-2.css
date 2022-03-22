@@ -1,0 +1,12 @@
+h2 {
+    color: aqua;
+}
+
+h3 {
+    border-top: solid;
+    border-bottom: solid;
+}
+
+h5 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

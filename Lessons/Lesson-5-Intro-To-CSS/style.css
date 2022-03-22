@@ -1,0 +1,16 @@
+body {
+    background-color: burlywood
+}
+
+p {
+    border-top: dotted;
+    border-bottom: dotted;
+}
+
+h1 {
+    color: red;
+}
+
+h4 {
+    font-family: 'Courier New', Verdana;
+}
