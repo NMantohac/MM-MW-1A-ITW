@@ -1,0 +1,76 @@
+body {
+    background-color: #7d490e;
+}
+
+a {
+    color: white
+}
+
+.random-box {
+    background-color: red;
+    border: dotted brown 20px; 
+    padding: 37px;
+    z-index: 2;
+}
+
+#box-1 {
+    position: fixed;
+    top: 30px;
+    left: 129px;
+}
+
+#box-2 {
+    position: fixed;
+    top: 500px;
+}
+
+#box-3 {
+    position: fixed;
+    top: 582px;
+    right: 302px;
+}
+
+#meme-1 {
+    position: absolute;
+    left: 67px;
+    top: 289px;
+    z-index: 1;
+}
+
+#meme-2 {
+    float: right;
+    margin: 51px;
+    right: 47px;
+    top: 588px;
+    z-index: 1;
+}
+
+#meme-3 {
+    position: absolute;
+    right: 356px;
+    bottom: 78px;
+    z-index: 1;
+}
+
+#meme-4 {
+    position: absolute;
+    top: 1486px;
+    z-index: 1;
+}
+
+#text-1 {
+    position: relative;
+    top: 55px;
+    right: 20px;
+}
+
+#text-2 {
+    position: relative;
+    top: -100px;
+}
+
+#text-3 {
+    position: relative;
+    top: -120px;
+    left: 168px;
+}

@@ -1,0 +1,82 @@
+body {
+    background-color: #8a449c;
+}
+
+a {
+    color: white
+}
+
+.random-box {
+    background-color: red;
+    border: dashed brown 20px; 
+    padding: 80px;
+    z-index: 2;
+}
+
+#box-7 {
+    position: fixed;
+    top: 80px;
+    left: 120px;
+}
+
+#box-8 {
+    position: fixed;
+    bottom: 80px;
+    left: 120px;
+}
+
+#box-9 {
+    position: fixed;
+    top: 80px;
+    right: 120px;
+}
+
+#box-10 {
+    position: fixed;
+    bottom: 80px;
+    right: 120px;
+}
+
+#meme-9 {
+    position: absolute;
+    left: 680px;
+    top: 220px;
+    z-index: 1;
+}
+
+#meme-10 {
+    float: left;
+    margin: 40px;
+    right: 47px;
+    top: 588px;
+    z-index: 1;
+}
+
+#meme-11 {
+    position: absolute;
+    left: 156px;
+    top: 1193px;
+    z-index: 1;
+}
+
+#meme-12 {
+    position: absolute;
+    top: 1486px;
+    z-index: 1;
+}
+
+#text-7 {
+    position: relative;
+    right: 20px;
+}
+
+#text-8 {
+    position: relative;
+    left: 100px;
+}
+
+#text-9 {
+    position: relative;
+    top: 20px;
+    right: 100px;
+}
