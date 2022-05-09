@@ -1,0 +1,56 @@
+body {
+	background-color: #a5a58d;
+}
+
+.header {
+	padding: 25px 0 0 0;
+}
+
+#title {
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+#banner {
+	border: solid 5px #6b705c;
+}
+
+.section {
+	background-color: #b7b7a4;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+
+.aside {
+	background-color: #b7b7a4;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+
+.footer {
+	text-align: center;
+	background-color: #b7b7a4;
+	border: solid 5px #6b705c;
+	border-radius: 10px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#footer-text {
+	padding: 20px 0 0 0;
+}
+
+a img {
+	-webkit-transition: -webkit-transform 0.5s ease-in-out;
+	-moz-transition: -webkit-transform 0.5s ease-in-out;
+	transition: transform 0.5s ease-in-out;
+}
+
+a:hover img {
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+
+	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
