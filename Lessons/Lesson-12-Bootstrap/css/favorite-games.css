@@ -1,3 +1,22 @@
-.navbar-nav {
-    font-size: 20px;
+#header-jumbotron {
+    background-image: url("https://wallpaperaccess.com/full/2651906.jpg");
+    background-size: cover;
+    background-position: 0% 35%;
+    height: 200px;
+}
+
+#header-jumbotron-text {
+    text-shadow: 2px 2px darkred;
+    padding-top: 40px;
+}
+
+#footer-jumbotron {
+    width: 100%;
+    height: 10vh;
+    background: silver;
+    border-top: solid 3px darkslategray;
+}
+
+#footer-jumbotron-text {
+    padding-top: 40px;
 }

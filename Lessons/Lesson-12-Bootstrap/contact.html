@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Bootstrap Project</title>
 </head>
-<body class="bg-secondary">
+<body class="bg-secondary body-container">
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark p-2 ps-4">
             <div class="container-fluid">
@@ -19,7 +19,7 @@
                 </button>
  
                 <div class="collapse navbar-collapse justify-content-end p-3" id="navbarNavAltMarkup">                    
-                    <div class="navbar-nav">
+                    <div class="navbar-nav fs-5">
                         <a class="nav-item nav-link px-3" href="about-me.html">About</a>
                         <a class="nav-item nav-link px-3" href="favorite-games.html">Games</a>
                         <a class="nav-item nav-link active px-3" aria-current="page" href="contact.html">Contact</a>
@@ -27,7 +27,51 @@
                 </div>
             </div>
         </nav>
+
+        <div class="jumbotron jumbotron-fluid text-center" id="header-jumbotron">
+            <div class="container-fluid">
+                <h1 class="display-1 fw-bold" id="header-jumbotron-text">Contact</h1>
+            </div>
+        </div>
     </header>
+
+    <main>
+        <div class="container-fluid" id="contact-container">
+            <div class="row">
+                <div class="col-12">
+                    <form class="form-full mt-3">
+                        <div class="form-group fw-bold fs-5">
+                            <label for="exampleInputName1">Name:</label>
+                            <input type="name" class="form-control" id="exampleInputName1" placeholder="John Smith">
+                        </div>
+
+                        <div class="form-group fw-bold fs-5 mt-2">
+                            <label for="exampleInputEmail1">Email address:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+                            <small id="emailHelp" class="form-text text-muted fw-normal fs-6">We'll never share your email with anyone else.</small>
+                        </div>
+
+                        <div class="form-group fw-bold fs-5 mt-2">
+                            <label for="exampleFormControlTextarea1">Message:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                        </div>
+
+                        <div class="text-center my-3">
+                            <button type="button" class="btn btn-lg btn-dark">Submit</button>
+                        </div>                                   
+                    </form>             
+                </div>       
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="jumbotron jumbotron-fluid text-center" id="footer-jumbotron">
+            <div class="container-fluid">
+                <h6 id="footer-jumbotron-text">@Copyright 2022. All Rights Reserved.</h6>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

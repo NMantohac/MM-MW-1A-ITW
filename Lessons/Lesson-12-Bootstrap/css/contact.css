@@ -1,3 +1,30 @@
-.navbar-nav {
-    font-size: 20px;
+#header-jumbotron {
+    background-image: url("https://images6.alphacoders.com/122/1224706.jpg");
+    background-size: cover;
+    background-position: 0% 40%;
+    height: 200px;
+}
+
+#header-jumbotron-text {
+    text-shadow: 2px 2px lightblue;
+    padding-top: 40px;
+}
+
+#contact-container {
+    width: 75%;
+    margin-top: 40px;
+    background-color: silver;
+    border: solid 5px darkslategray;
+}
+
+#footer-jumbotron {
+    width: 100%;
+    margin-top: 90px;
+    height: 10vh;
+    background: silver;
+    border-top: solid 3px darkslategray;
+}
+
+#footer-jumbotron-text {
+    padding-top: 40px;
 }
